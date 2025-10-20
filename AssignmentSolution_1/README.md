@@ -5,11 +5,11 @@ It reads customer shopping data from a CSV file and performs grouping and aggreg
 
 Implemented Tasks
 
-Read data from CSV into a collection
-Count population grouped by gender (transactions + unique customers)
-Find total sales grouped by gender
-Find most used payment method
-Find day with the most sales
+Read data from CSV into a collection;
+Count population grouped by gender (transactions + unique customers);
+Find total sales grouped by gender;
+Find most used payment method;
+Find day with the most sales.
 
 How to Run
 
@@ -29,7 +29,7 @@ Top sales day: 2021-10-28 ($534,906.86)
 
 Notes
 
-Uses Java Streams (groupingBy, counting, reducing)
-Amounts use BigDecimal for precision
-Supports multiple date formats: M/d/yyyy, d/M/yyyy, etc.
-Output formatted with commas for readability
+Uses Java Streams (groupingBy, counting, reducing);
+Amounts use BigDecimal for precision;
+Supports multiple date formats: M/d/yyyy, d/M/yyyy, etc.;
+Output formatted with commas for readability;
