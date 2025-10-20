@@ -16,10 +16,8 @@ How to Run
 From project root (ASSIGNMENTSOLUTION_1):
 javac -encoding UTF-8 -d bin src/\*.java
 java -cp bin App
-
-# or specify path explicitly:
-
-# java -cp bin App src/customer_shopping_data.csv
+or specify path explicitly:
+java -cp bin App src/customer_shopping_data.csv
 
 Example Output
 
