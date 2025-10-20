@@ -1,9 +1,9 @@
-Overview
+# Overview
 
 This project implements Assignment 2 of the Level 2 Coding Challenge using Java threads and synchronization.
 It demonstrates how a producer and a consumer coordinate through a bounded queue to safely transfer data between containers.
 
-Implemented Tasks
+# Implemented Tasks
 
 Create a source container with integers and doubles
 Create a destination container with the same capacity
@@ -12,17 +12,17 @@ Implement a producer that writes from source to queue and waits when full
 Implement a consumer that reads from queue to destination and waits when empty
 Verify that all numbers are copied correctly from source to destination
 
-How to Run
+# How to Run
 
 From project root (ASSIGNMENTSOLUTION_2):
-# Compile
+Compile
 javac -encoding UTF-8 -d bin src/pc/\*.java src/App2.java src/TestProducerConsumer.java
-# Run manual verification (step-by-step checks)
+Run manual verification (step-by-step checks)
 java -cp bin App2
-# Run automated test (enable assertions)
+Run automated test (enable assertions)
 java -ea -cp bin TestProducerConsumer
 
-Example Output
+# Example Output
 
 1. Source container created with data: [1, 2.5, 3, 4.75, 5, 6.25, 7, 8.5]
    Capacity: 8
@@ -35,7 +35,7 @@ Example Output
    Equal: true
    All checks passed : Producer/Consumer logic verified.
 
-Notes
+# Notes
 
 Uses wait() / notifyAll() for thread coordination
 Queue capacity = half of source container (at least 1)
