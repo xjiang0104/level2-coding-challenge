@@ -1,36 +1,31 @@
-Overview
+# Level 2 Coding Challenge — Java
 
-This repository contains my Level 2 Coding Challenge completed in Java.
-It includes two assignments that demonstrate data processing and concurrency using core Java features only.
+## Overview  
+This repository contains my **Level 2 Coding Challenge** completed in **Java**.  
+It includes two assignments that demonstrate data processing and concurrency using core Java only (no external libraries).
 
-Assignments
-1. Aggregation & Grouping with Java Streams
+---
 
-Reads a CSV dataset containing customer shopping data
-Performs aggregation and grouping using Java Streams
-Tasks implemented:
-Read data from CSV
-Count population by gender (transactions + unique customers)
-Find total sales by gender
-Find the most used payment method
-Find the day with the highest total sales
+## Assignments  
+1️⃣ **Aggregation & Grouping with Java Streams**  
+2️⃣ **Producer–Consumer Problem using wait/notify**  
 
-Technologies: java.util.stream, BigDecimal, LocalDate, Collectors
+---
 
-2. Producer–Consumer Problem using wait/notify
+## Project Structure  
+CodingChallengeSolution/  
+- AssignmentSolution_1/ — Aggregation & Grouping (Java Streams)  
+- AssignmentSolution_2/ — Producer–Consumer (wait/notify)  
+- Assignments output screenshots/ — Screenshots of successful runs  
 
-Implements the classic producer–consumer problem with proper thread synchronization
-Tasks implemented:
-Source container (integers + doubles)
-Destination container with same capacity
-Bounded queue with half capacity
-Producer thread writes to queue, waits when full
-Consumer thread reads from queue, waits when empty
-Tests verify data copied correctly in order
+---
 
-Technologies: Thread, synchronized, wait(), notifyAll()
+## How to Run  
+Each assignment contains its own README with compile/run instructions.  
 
-Example Output
+---
 
-Both assignments were executed successfully.
-The output screenshots are saved under Assignments output screenshots.pdf
+## Notes  
+- Pure Java implementation (no third-party libs)  
+- Tested on Windows 10, Java 17  
+- Detailed steps and outputs are shown in each assignment’s README  
